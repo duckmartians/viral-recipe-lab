@@ -10,6 +10,7 @@ version step by step. Every episode gets its own folder with the exact prompts u
 | 01 | "Ink Explainer" history videos (stick-figure explainers, one still image every ~2 s) | [ep01-ink-explainer](ep01-ink-explainer) |
 | 02 | "The ENTIRE History of X" epics (one repeating idea, a cast in costumes, ~2.6 s per image) | [ep02-entire-history](ep02-entire-history) |
 | 03 | 3D reconstructions of real events (source-graded dossier, clay 3D scenes written as code) | [ep03-reconstruction](ep03-reconstruction) |
+| 04 | AI dialogue dramas with talking characters (reversal story, fixed cast, shot-list prompts) | [ep04-ai-dialogue-drama](ep04-ai-dialogue-drama) |
 
 ## How to use
 1. Open the episode folder and copy the prompt file into your AI chat (Claude, ChatGPT, Gemini...).
