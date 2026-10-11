@@ -47,6 +47,14 @@ from (an extra child appears, someone walks through the counter, the wrong room,
 - BLOCKING: where each character is relative to the furniture ("behind the counter, left of the cash box"),
   sitting or standing, and whether they move. A walk is its own clip with a clear path.
 - CAMERA: one shot size, one angle, one move or locked-off, "one continuous shot, no cuts".
+- FRAME, NOT JUST ROOM: say where the big furniture is in the picture and on which side of it everyone stands
+  ("the waist-high counter crosses the bottom of the frame; Grandpa stands on the far side, the counter top at his
+  waist; the child stands on a step stool, chest and head above the counter"). "Behind the counter" alone made people
+  sink into the floor or stand in front of it.
+- In EVERY clip: "feet never sink into the floor; nobody passes through furniture; nobody else is in the foreground".
+- PROPS AND OUTFITS per scene: name the same prop every time ("the green cushion", "the flowery hat, the whole game").
+- STORY BRIDGES: after the failure, one clip of the child sad and one of the grown-up noticing; introduce every
+  character before the ending; never two identical filler shots.
 - ROOM IN WORDS: the location image is not enough. Describe it and say what it is NOT if the action could pull the
   model elsewhere ("the small shop front with the glass counter, not the kitchen").
 - DRIFTING DETAILS: repeat 1-2 outfit details in every clip ("yellow dress and red hair bow").

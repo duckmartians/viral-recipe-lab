@@ -25,4 +25,4 @@ a silent reaction after every line, and an edit that talks, then shows.
   2.6 s between lines - but 22 cuts a minute, and nearly half of the shots have no words at all.
 
 Example from the video: "Mia Is Too Shy to Talk at Grandpa's Bakery... Then Grandpa Has a CLEVER Plan!"
-(4 characters, 57 clips, 3:35).
+(4 characters, 52 clips, 3:30).
