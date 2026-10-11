@@ -41,6 +41,10 @@ saved with the character (in G-Labs Studio: a custom voice that was previewed an
   Veo components). 720p is enough.
 - Per-prompt duration tags (`[4s]` `[6s]` `[8s]` `[10s]`) so LINE clips and BEAT clips get different lengths.
 - Run 3-4 clips at a time. Fix a failed row on the same table: read the error, edit that row, retry that row only.
+- Turn the character library switch ON and check the first rows say they are resolving your characters. Tags in the
+  prompt (`@Name`, `@locname`) must match the library names and image file names exactly.
+- Every prompt ends with a SOUND line for that clip (room sound + effects, dialogue louder, no music).
+- Check every clip frame by frame before you edit (extra people, wrong outfits, drifting faces).
 
 ## 5. Edit: talk, then show
 - LINE clip: start 0.4 s before the first word; keep 2-3 s AFTER the last word (the silent reaction) - this pause

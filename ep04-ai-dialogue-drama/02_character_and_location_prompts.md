@@ -43,6 +43,10 @@ voice is saved with the character (in G-Labs Studio: a custom voice that was pre
   all have the same length.
 - Run 3-4 clips at a time. Fix a failed row on the same table: read the error, edit that row's prompt, retry
   that row only. Never re-run the whole batch.
+- Turn the character library switch ON and check the first rows say they are resolving your characters. Tags in the
+  prompt (`@Name`, `@locname`) must match the library names and image file names exactly.
+- Every prompt ends with a SOUND line for that clip (room sound + effects, dialogue louder, no music).
+- Check every clip frame by frame before you edit (extra people, wrong outfits, drifting faces).
 
 ## 5. Edit
 Trim every clip to its dialogue: start a third of a second before the first word, end half a second after the
