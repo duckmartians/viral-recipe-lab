@@ -12,6 +12,7 @@ version step by step. Every episode gets its own folder with the exact prompts u
 | 03 | 3D reconstructions of real events (source-graded dossier, clay 3D scenes written as code) | [ep03-reconstruction](ep03-reconstruction) |
 | 04 | AI dialogue dramas with talking characters (reversal story, fixed cast, shot-list prompts) | [ep04-ai-dialogue-drama](ep04-ai-dialogue-drama) |
 | 05 | Easy English listening stories (A2 cartoon family, "talk, then show" pacing) | [ep05-easy-english-story](ep05-easy-english-story) |
+| 06 | Fruit-head family stories (Slow English cartoon, "show, barely tell") | [ep06-fruit-family-story](ep06-fruit-family-story) |
 
 ## How to use
 1. Open the episode folder and copy the prompt file into your AI chat (Claude, ChatGPT, Gemini...).
