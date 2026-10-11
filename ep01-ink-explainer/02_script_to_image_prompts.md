@@ -11,13 +11,17 @@ Midjourney... any of them).
 STYLE = "hand-drawn ink cartoon, thick black outlines, flat warm colours, simple shading, off-white paper
 background, clean composition with empty space, 16:9, no text unless specified"
 
-## Locked characters (describe them the same way every time, or attach the same reference image)
-- YOU = "a modern stickman with a round white head, small dot eyes, simple black body, grey hoodie"
-- THEM = "a {PERIOD} stickman with a round head, {HAIR}, wearing {CLOTHES}"
-Never redesign them. If your tool supports references (character library, @tags, image prompts), use them.
+## Locked characters (a tag + the same words every time)
+- @Hoodie = "a modern stickman with a round white head, small dot eyes, simple black body, grey hoodie"
+- THEM = "a {PERIOD} stickman with a round head, {HAIR}, wearing {CLOTHES}" (changes with the period: no tag)
+Every prompt that shows the main character writes the tag AND the words: "@Hoodie, a modern stickman with a round
+white head...". The tag pulls in the reference image (the character library in G-Labs, an image reference in other
+tools: save the reference image as "hoodie.jpg"). Tools match the word after @ anywhere inside a file name, so the tag
+must not be part of any other file name. The words keep it right in tools without references.
+Never redesign them.
 
 ## Templates per shot type
-- SCENE: "{STYLE}. {CHARACTER} {ACTION} in {SETTING}. {MOOD/LIGHT}."
+- SCENE: "{STYLE}. {@Hoodie + its words, or THEM} {ACTION} in {SETTING}. {MOOD/LIGHT}."
 - TEXT: "{STYLE}. Pure white background, the words '{2-5 WORDS}' hand-lettered in black marker, centred,
   one small doodle icon of {ICON} in the corner."
 - SPLIT: "{STYLE}. Split screen with a dashed vertical line. Left: {THEN}. Right: {NOW}.
@@ -27,7 +31,8 @@ Never redesign them. If your tool supports references (character library, @tags,
 - DIAGRAM: "{STYLE}. {A} -> {B} -> {C} drawn as simple icons joined by hand-drawn arrows, labels under each."
 
 ## Output
-A numbered list: `#<row> | <shot type> | <prompt>`. One prompt per line, no commentary.
+A numbered list: `#<row> | <shot type> | <prompt>`. One prompt per line, no commentary. Only tag a character
+who is in the picture.
 
 ## Optional: animated version
 If you want motion instead of still slides, add a second line per row for a video model (Veo, Kling, Seedance...):

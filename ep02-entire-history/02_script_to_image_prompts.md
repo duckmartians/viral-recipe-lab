@@ -16,11 +16,14 @@ specified"
 ## Cast: identity by costume
 There is no fixed main character. Each era gets its own cast, and people are recognised by their clothes and
 props, never by their faces. Before writing prompts, make a CAST table for this script:
-`NAME = "a stickman with a round white head, {hair}, wearing {costume}, holding {prop}"`
-- One line per named leader (he keeps the same costume for his whole era).
-- One line per group (soldiers of each army, merchants, priests, ordinary people of each period).
-Paste the exact CAST line into every prompt where that person or group appears. If your tool supports
-reference images (character library, @tags), make one reference per leader and reuse it.
+`@Name = "a stickman with a round white head, {hair}, wearing {costume}, holding {prop}"`
+- One line per named leader, with a one-word tag (@Sargon, @Hammurabi). He keeps the same costume for his era.
+- One line per group, NO tag (soldiers of each army, merchants, priests, ordinary people of each period).
+Every prompt that shows a leader writes the tag AND the cast line: "@Sargon, a stickman with a round white head...".
+The tag pulls in that leader's reference image (the character library in G-Labs; save the reference under the exact
+tag name, e.g. sargon.jpg). Tools match the word after @ anywhere inside a file name, so no tag may be part of
+another file name. The words keep him right in tools without references. Groups always use their cast line.
+Only tag leaders who are in the picture; at most 3 tags per prompt.
 
 ## Templates per shot type
 - CROWD: "{STYLE}. Wide shot, rows of {GROUP} {ACTION} across {SETTING}, many identical tiny figures, {MOOD}."

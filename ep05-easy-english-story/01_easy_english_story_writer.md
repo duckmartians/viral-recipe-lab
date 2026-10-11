@@ -78,8 +78,8 @@ from (an extra child appears, someone walks through the counter, the wrong room,
   off-screen is named without @ ("Grandma, off-screen") - a tagged character gets drawn into the frame.
 - Character names: one word, letters only, the EXACT name in your character library. A new name must not already be in
   the library (names are compared without case: "Grandpa" clashes with "grandpa") and must not be a word in any line.
-- Location tags: `loc` + one word (locbakery, lockitchen), the exact reference image file name. No tag may be the start of another
-  tag ("lockitchen" and "lockitchennight" clash - use "locnight"), because tools match reference files by name.
+- Location tags: `loc` + one word (locbakery, lockitchen), the exact reference image file name. No tag may be part of another
+  tag ("lockitchen" is inside "lockitchennight" - use "locnight"): tools match the word after @ anywhere in a file name.
 - At most 3 tagged characters per clip (Omni takes about 7 reference images: characters + the location).
 - The tag is not a description. Repeat the look in words in every clip (outfit details that drift)
   and keep the same @tags across the whole story.
