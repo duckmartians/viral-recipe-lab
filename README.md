@@ -14,6 +14,7 @@ version step by step. Every episode gets its own folder with the exact prompts u
 | 05 | Easy English listening stories (A2 cartoon family, "talk, then show" pacing) | [ep05-easy-english-story](ep05-easy-english-story) |
 | 06 | Fruit-head family stories (Slow English cartoon, "show, barely tell") | [ep06-fruit-family-story](ep06-fruit-family-story) |
 | 07 | Wordless animal short films (baby animal, no dialogue, sound never stops) | [ep07-wordless-animal-short](ep07-wordless-animal-short) |
+| 08 | AI fruit baby ASMR videos ("Nice or Cute?" style, one template, 8 s clips) | [ep08-fruit-babies-asmr](ep08-fruit-babies-asmr) |
 
 ## How to use
 1. Open the episode folder and copy the prompt file into your AI chat (Claude, ChatGPT, Gemini...).
