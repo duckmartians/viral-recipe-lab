@@ -15,6 +15,7 @@ version step by step. Every episode gets its own folder with the exact prompts u
 | 06 | Fruit-head family stories (Slow English cartoon, "show, barely tell") | [ep06-fruit-family-story](ep06-fruit-family-story) |
 | 07 | Wordless animal short films (baby animal, no dialogue, sound never stops) | [ep07-wordless-animal-short](ep07-wordless-animal-short) |
 | 08 | AI fruit baby ASMR videos ("Nice or Cute?" style, one template, 8 s clips) | [ep08-fruit-babies-asmr](ep08-fruit-babies-asmr) |
+| 09 | AI baby monkey farm videos (a hero + a toy digger, a job per clip, consistent characters with a picture chain) | [ep09-monkey-farm-builder](ep09-monkey-farm-builder) |
 
 ## How to use
 1. Open the episode folder and copy the prompt file into your AI chat (Claude, ChatGPT, Gemini...).
