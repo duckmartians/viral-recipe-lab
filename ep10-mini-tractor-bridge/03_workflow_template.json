@@ -1,0 +1,1762 @@
+{
+ "nodes": [
+  {
+   "type": "prompt",
+   "title": "Prompt v01",
+   "x": 300,
+   "y": 0,
+   "w": 400,
+   "h": 300.0,
+   "inputs": [],
+   "outputs": [
+    "Prompt"
+   ],
+   "values": {
+    "prompt": "The blue toy pickup truck with grey pipes drives toward the camera along the dirt road to the level crossing and stops right on the rails. CAMERA: one continuous locked-off shot at toy eye level, real miniature scale, the same toys and the same bridge size as the frames, nothing disappears. SOUND: a small toy engine hum, gravel crunching. Lively toy sounds, no music. Real tabletop miniature toy diorama filmed in macro, bright daylight, vivid colours. No music, no subtitles, no on-screen text, no logos."
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 100
+  },
+  {
+   "type": "video_generate",
+   "title": "v01",
+   "x": 800,
+   "y": 0,
+   "w": 400,
+   "h": 400.0,
+   "inputs": [
+    "Prompt",
+    "Start Image",
+    "End Image (Optional)"
+   ],
+   "outputs": [
+    "Video"
+   ],
+   "values": {
+    "mode": "image",
+    "model": "Omni [-4 ~ 15 credit]",
+    "ratio": "VIDEO_ASPECT_RATIO_LANDSCAPE",
+    "resolution": "720p"
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 101
+  },
+  {
+   "type": "reference",
+   "title": "sc01",
+   "x": -150,
+   "y": 0,
+   "w": 400,
+   "h": 175.0,
+   "inputs": [],
+   "outputs": [
+    "Image"
+   ],
+   "values": {
+    "file_path": ""
+   },
+   "ref_mode": "pro",
+   "disabled": false,
+   "skipped": false,
+   "id": 102
+  },
+  {
+   "type": "prompt",
+   "title": "Prompt v02",
+   "x": 1700,
+   "y": 0,
+   "w": 400,
+   "h": 300.0,
+   "inputs": [],
+   "outputs": [
+    "Prompt"
+   ],
+   "values": {
+    "prompt": "The toy steam train rolls in from the left and gently bumps the truck; the truck tips over onto the sand, the pipes roll off, a small puff of grey smoke. CAMERA: one continuous locked-off shot at toy eye level, real miniature scale, the same toys and the same bridge size as the frames, nothing disappears. SOUND: a toy train chug-chug, a soft plastic bump, pipes clattering, a surprised 'Whoa!'. Lively toy sounds, no music. Real tabletop miniature toy diorama filmed in macro, bright daylight, vivid colours. No music, no subtitles, no on-screen text, no logos."
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 103
+  },
+  {
+   "type": "video_generate",
+   "title": "v02",
+   "x": 2200,
+   "y": 0,
+   "w": 400,
+   "h": 400.0,
+   "inputs": [
+    "Prompt",
+    "Start Image",
+    "End Image (Optional)"
+   ],
+   "outputs": [
+    "Video"
+   ],
+   "values": {
+    "mode": "image",
+    "model": "Omni [-4 ~ 15 credit]",
+    "ratio": "VIDEO_ASPECT_RATIO_LANDSCAPE",
+    "resolution": "720p"
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 104
+  },
+  {
+   "type": "frame_extract",
+   "title": "Last frame v01",
+   "x": 800,
+   "y": 560,
+   "w": 400,
+   "h": 100.0,
+   "inputs": [
+    "Video"
+   ],
+   "outputs": [
+    "Image"
+   ],
+   "values": {},
+   "disabled": false,
+   "skipped": false,
+   "id": 105
+  },
+  {
+   "type": "reference",
+   "title": "sc04",
+   "x": 1250,
+   "y": 400,
+   "w": 400,
+   "h": 175.0,
+   "inputs": [],
+   "outputs": [
+    "Image"
+   ],
+   "values": {
+    "file_path": ""
+   },
+   "ref_mode": "pro",
+   "disabled": false,
+   "skipped": false,
+   "id": 106
+  },
+  {
+   "type": "prompt",
+   "title": "Prompt v03",
+   "x": 3100,
+   "y": 0,
+   "w": 400,
+   "h": 300.0,
+   "inputs": [],
+   "outputs": [
+    "Prompt"
+   ],
+   "values": {
+    "prompt": "Nutty, a tiny peanut-shell toy with googly eyes, climbs out of the tipped truck, rubs his head and bows. He says: \"So sorry!\" CAMERA: one continuous locked-off shot at toy eye level, real miniature scale, the same toys and the same bridge size as the frames, nothing disappears. SOUND: a squeaky cartoon voice \"So sorry!\", louder than a soft clatter. Lively toy sounds, no music. Real tabletop miniature toy diorama filmed in macro, bright daylight, vivid colours. No music, no subtitles, no on-screen text, no logos."
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 107
+  },
+  {
+   "type": "video_generate",
+   "title": "v03",
+   "x": 3600,
+   "y": 0,
+   "w": 400,
+   "h": 400.0,
+   "inputs": [
+    "Prompt",
+    "Start Image",
+    "End Image (Optional)"
+   ],
+   "outputs": [
+    "Video"
+   ],
+   "values": {
+    "mode": "image",
+    "model": "Omni [-4 ~ 15 credit]",
+    "ratio": "VIDEO_ASPECT_RATIO_LANDSCAPE",
+    "resolution": "720p"
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 108
+  },
+  {
+   "type": "frame_extract",
+   "title": "Last frame v02",
+   "x": 2200,
+   "y": 560,
+   "w": 400,
+   "h": 100.0,
+   "inputs": [
+    "Video"
+   ],
+   "outputs": [
+    "Image"
+   ],
+   "values": {},
+   "disabled": false,
+   "skipped": false,
+   "id": 109
+  },
+  {
+   "type": "prompt",
+   "title": "Prompt v04",
+   "x": 4500,
+   "y": 0,
+   "w": 400,
+   "h": 300.0,
+   "inputs": [],
+   "outputs": [
+    "Prompt"
+   ],
+   "values": {
+    "prompt": "In the truck's cab, Nutty looks left and right, shrugs with his thin wire arms and giggles nervously. CAMERA: one continuous locked-off shot at toy eye level, real miniature scale, the same toys and the same bridge size as the frames, nothing disappears. SOUND: a squeaky nervous giggle. Lively toy sounds, no music. Real tabletop miniature toy diorama filmed in macro, bright daylight, vivid colours. No music, no subtitles, no on-screen text, no logos."
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 110
+  },
+  {
+   "type": "video_generate",
+   "title": "v04",
+   "x": 5000,
+   "y": 0,
+   "w": 400,
+   "h": 400.0,
+   "inputs": [
+    "Prompt",
+    "Start Image",
+    "End Image (Optional)"
+   ],
+   "outputs": [
+    "Video"
+   ],
+   "values": {
+    "mode": "image",
+    "model": "Omni [-4 ~ 15 credit]",
+    "ratio": "VIDEO_ASPECT_RATIO_LANDSCAPE",
+    "resolution": "720p"
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 111
+  },
+  {
+   "type": "reference",
+   "title": "sc05",
+   "x": 4050,
+   "y": 0,
+   "w": 400,
+   "h": 175.0,
+   "inputs": [],
+   "outputs": [
+    "Image"
+   ],
+   "values": {
+    "file_path": ""
+   },
+   "ref_mode": "pro",
+   "disabled": false,
+   "skipped": false,
+   "id": 112
+  },
+  {
+   "type": "prompt",
+   "title": "Prompt v05",
+   "x": 5900,
+   "y": 0,
+   "w": 400,
+   "h": 300.0,
+   "inputs": [],
+   "outputs": [
+    "Prompt"
+   ],
+   "values": {
+    "prompt": "The toy farmer taps his chin, then raises one finger as if he has an idea and nods. CAMERA: one continuous locked-off shot at toy eye level, real miniature scale, the same toys and the same bridge size as the frames, nothing disappears. SOUND: a cheerful 'Hmm... aha!' in a cartoon voice, a little ding. Lively toy sounds, no music. Real tabletop miniature toy diorama filmed in macro, bright daylight, vivid colours. No music, no subtitles, no on-screen text, no logos."
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 113
+  },
+  {
+   "type": "video_generate",
+   "title": "v05",
+   "x": 6400,
+   "y": 0,
+   "w": 400,
+   "h": 400.0,
+   "inputs": [
+    "Prompt",
+    "Start Image",
+    "End Image (Optional)"
+   ],
+   "outputs": [
+    "Video"
+   ],
+   "values": {
+    "mode": "image",
+    "model": "Omni [-4 ~ 15 credit]",
+    "ratio": "VIDEO_ASPECT_RATIO_LANDSCAPE",
+    "resolution": "720p"
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 114
+  },
+  {
+   "type": "reference",
+   "title": "sc06",
+   "x": 5450,
+   "y": 0,
+   "w": 400,
+   "h": 175.0,
+   "inputs": [],
+   "outputs": [
+    "Image"
+   ],
+   "values": {
+    "file_path": ""
+   },
+   "ref_mode": "pro",
+   "disabled": false,
+   "skipped": false,
+   "id": 115
+  },
+  {
+   "type": "prompt",
+   "title": "Prompt v06",
+   "x": 7300,
+   "y": 0,
+   "w": 400,
+   "h": 300.0,
+   "inputs": [],
+   "outputs": [
+    "Prompt"
+   ],
+   "values": {
+    "prompt": "The yellow excavator swings its arm and sets the grey pipe onto the truck's flat bed. CAMERA: one continuous locked-off shot at toy eye level, real miniature scale, the same toys and the same bridge size as the frames, nothing disappears. SOUND: hydraulic whirr, a soft clunk. Lively toy sounds, no music. Real tabletop miniature toy diorama filmed in macro, bright daylight, vivid colours. No music, no subtitles, no on-screen text, no logos."
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 116
+  },
+  {
+   "type": "video_generate",
+   "title": "v06",
+   "x": 7800,
+   "y": 0,
+   "w": 400,
+   "h": 400.0,
+   "inputs": [
+    "Prompt",
+    "Start Image",
+    "End Image (Optional)"
+   ],
+   "outputs": [
+    "Video"
+   ],
+   "values": {
+    "mode": "image",
+    "model": "Omni [-4 ~ 15 credit]",
+    "ratio": "VIDEO_ASPECT_RATIO_LANDSCAPE",
+    "resolution": "720p"
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 117
+  },
+  {
+   "type": "reference",
+   "title": "sc07",
+   "x": 6850,
+   "y": 0,
+   "w": 400,
+   "h": 175.0,
+   "inputs": [],
+   "outputs": [
+    "Image"
+   ],
+   "values": {
+    "file_path": ""
+   },
+   "ref_mode": "pro",
+   "disabled": false,
+   "skipped": false,
+   "id": 118
+  },
+  {
+   "type": "prompt",
+   "title": "Prompt v07",
+   "x": 8700,
+   "y": 0,
+   "w": 400,
+   "h": 300.0,
+   "inputs": [],
+   "outputs": [
+    "Prompt"
+   ],
+   "values": {
+    "prompt": "The excavator lowers the toy locomotive gently onto the rails; it settles with a click. CAMERA: one continuous locked-off shot at toy eye level, real miniature scale, the same toys and the same bridge size as the frames, nothing disappears. SOUND: hydraulic whirr, a metal click, a happy toot. Lively toy sounds, no music. Real tabletop miniature toy diorama filmed in macro, bright daylight, vivid colours. No music, no subtitles, no on-screen text, no logos."
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 119
+  },
+  {
+   "type": "video_generate",
+   "title": "v07",
+   "x": 9200,
+   "y": 0,
+   "w": 400,
+   "h": 400.0,
+   "inputs": [
+    "Prompt",
+    "Start Image",
+    "End Image (Optional)"
+   ],
+   "outputs": [
+    "Video"
+   ],
+   "values": {
+    "mode": "image",
+    "model": "Omni [-4 ~ 15 credit]",
+    "ratio": "VIDEO_ASPECT_RATIO_LANDSCAPE",
+    "resolution": "720p"
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 120
+  },
+  {
+   "type": "reference",
+   "title": "sc08",
+   "x": 8250,
+   "y": 0,
+   "w": 400,
+   "h": 175.0,
+   "inputs": [],
+   "outputs": [
+    "Image"
+   ],
+   "values": {
+    "file_path": ""
+   },
+   "ref_mode": "pro",
+   "disabled": false,
+   "skipped": false,
+   "id": 121
+  },
+  {
+   "type": "prompt",
+   "title": "Prompt v08",
+   "x": 10100,
+   "y": 0,
+   "w": 400,
+   "h": 300.0,
+   "inputs": [],
+   "outputs": [
+    "Prompt"
+   ],
+   "values": {
+    "prompt": "The red toy tractor pulls the trailer full of sand along the road past the camera. CAMERA: one continuous locked-off shot at toy eye level, real miniature scale, the same toys and the same bridge size as the frames, nothing disappears. SOUND: a puttering toy tractor engine. Lively toy sounds, no music. Real tabletop miniature toy diorama filmed in macro, bright daylight, vivid colours. No music, no subtitles, no on-screen text, no logos."
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 122
+  },
+  {
+   "type": "video_generate",
+   "title": "v08",
+   "x": 10600,
+   "y": 0,
+   "w": 400,
+   "h": 400.0,
+   "inputs": [
+    "Prompt",
+    "Start Image",
+    "End Image (Optional)"
+   ],
+   "outputs": [
+    "Video"
+   ],
+   "values": {
+    "mode": "image",
+    "model": "Omni [-4 ~ 15 credit]",
+    "ratio": "VIDEO_ASPECT_RATIO_LANDSCAPE",
+    "resolution": "720p"
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 123
+  },
+  {
+   "type": "reference",
+   "title": "sc09",
+   "x": 9650,
+   "y": 0,
+   "w": 400,
+   "h": 175.0,
+   "inputs": [],
+   "outputs": [
+    "Image"
+   ],
+   "values": {
+    "file_path": ""
+   },
+   "ref_mode": "pro",
+   "disabled": false,
+   "skipped": false,
+   "id": 124
+  },
+  {
+   "type": "prompt",
+   "title": "Prompt v09",
+   "x": 11500,
+   "y": 0,
+   "w": 400,
+   "h": 300.0,
+   "inputs": [],
+   "outputs": [
+    "Prompt"
+   ],
+   "values": {
+    "prompt": "The toy farmer on the tractor waves; the camera glides slowly along the trailer full of bricks and cement bags. CAMERA: one continuous locked-off shot at toy eye level, real miniature scale, the same toys and the same bridge size as the frames, nothing disappears. SOUND: a putter of the engine, a cheerful hum. Lively toy sounds, no music. Real tabletop miniature toy diorama filmed in macro, bright daylight, vivid colours. No music, no subtitles, no on-screen text, no logos."
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 125
+  },
+  {
+   "type": "video_generate",
+   "title": "v09",
+   "x": 12000,
+   "y": 0,
+   "w": 400,
+   "h": 400.0,
+   "inputs": [
+    "Prompt",
+    "Start Image",
+    "End Image (Optional)"
+   ],
+   "outputs": [
+    "Video"
+   ],
+   "values": {
+    "mode": "image",
+    "model": "Omni [-4 ~ 15 credit]",
+    "ratio": "VIDEO_ASPECT_RATIO_LANDSCAPE",
+    "resolution": "720p"
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 126
+  },
+  {
+   "type": "reference",
+   "title": "sc10",
+   "x": 11050,
+   "y": 0,
+   "w": 400,
+   "h": 175.0,
+   "inputs": [],
+   "outputs": [
+    "Image"
+   ],
+   "values": {
+    "file_path": ""
+   },
+   "ref_mode": "pro",
+   "disabled": false,
+   "skipped": false,
+   "id": 127
+  },
+  {
+   "type": "prompt",
+   "title": "Prompt b01",
+   "x": 300,
+   "y": 1300,
+   "w": 400,
+   "h": 300.0,
+   "inputs": [],
+   "outputs": [
+    "Prompt"
+   ],
+   "values": {
+    "prompt": "two hands in plain red rubber work gloves (no pattern, no logos) set two tall wooden formwork boxes, one on each side of the track, then leave. The bridge keeps exactly the size and height of the end frame. CAMERA: one continuous locked-off shot at toy eye level, real miniature scale, the same toys and the same bridge size as the frames, nothing disappears. SOUND: soft wooden taps. Lively toy sounds, no music. Real tabletop miniature toy diorama filmed in macro, bright daylight, vivid colours. No music, no subtitles, no on-screen text, no logos."
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 128
+  },
+  {
+   "type": "video_generate",
+   "title": "b01",
+   "x": 800,
+   "y": 1300,
+   "w": 400,
+   "h": 400.0,
+   "inputs": [
+    "Prompt",
+    "Start Image",
+    "End Image (Optional)"
+   ],
+   "outputs": [
+    "Video"
+   ],
+   "values": {
+    "mode": "image",
+    "model": "Omni [-4 ~ 15 credit]",
+    "ratio": "VIDEO_ASPECT_RATIO_LANDSCAPE",
+    "resolution": "720p"
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 129
+  },
+  {
+   "type": "reference",
+   "title": "stp01",
+   "x": -150,
+   "y": 1300,
+   "w": 400,
+   "h": 175.0,
+   "inputs": [],
+   "outputs": [
+    "Image"
+   ],
+   "values": {
+    "file_path": ""
+   },
+   "ref_mode": "pro",
+   "disabled": false,
+   "skipped": false,
+   "id": 130
+  },
+  {
+   "type": "reference",
+   "title": "stp02",
+   "x": -150,
+   "y": 1700,
+   "w": 400,
+   "h": 175.0,
+   "inputs": [],
+   "outputs": [
+    "Image"
+   ],
+   "values": {
+    "file_path": ""
+   },
+   "ref_mode": "pro",
+   "disabled": false,
+   "skipped": false,
+   "id": 131
+  },
+  {
+   "type": "prompt",
+   "title": "Prompt b02",
+   "x": 1700,
+   "y": 1300,
+   "w": 400,
+   "h": 300.0,
+   "inputs": [],
+   "outputs": [
+    "Prompt"
+   ],
+   "values": {
+    "prompt": "two hands in plain red rubber work gloves (no pattern, no logos) pour grey cement into the two wooden boxes, then lift the boxes away to show the tall smooth concrete walls. The bridge keeps exactly the size and height of the end frame. CAMERA: one continuous locked-off shot at toy eye level, real miniature scale, the same toys and the same bridge size as the frames, nothing disappears. SOUND: a thick cement pour, a wooden lift. Lively toy sounds, no music. Real tabletop miniature toy diorama filmed in macro, bright daylight, vivid colours. No music, no subtitles, no on-screen text, no logos."
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 132
+  },
+  {
+   "type": "video_generate",
+   "title": "b02",
+   "x": 2200,
+   "y": 1300,
+   "w": 400,
+   "h": 400.0,
+   "inputs": [
+    "Prompt",
+    "Start Image",
+    "End Image (Optional)"
+   ],
+   "outputs": [
+    "Video"
+   ],
+   "values": {
+    "mode": "image",
+    "model": "Omni [-4 ~ 15 credit]",
+    "ratio": "VIDEO_ASPECT_RATIO_LANDSCAPE",
+    "resolution": "720p"
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 133
+  },
+  {
+   "type": "frame_extract",
+   "title": "Last frame b01",
+   "x": 800,
+   "y": 1860,
+   "w": 400,
+   "h": 100.0,
+   "inputs": [
+    "Video"
+   ],
+   "outputs": [
+    "Image"
+   ],
+   "values": {},
+   "disabled": false,
+   "skipped": false,
+   "id": 134
+  },
+  {
+   "type": "reference",
+   "title": "stp03",
+   "x": 1250,
+   "y": 1700,
+   "w": 400,
+   "h": 175.0,
+   "inputs": [],
+   "outputs": [
+    "Image"
+   ],
+   "values": {
+    "file_path": ""
+   },
+   "ref_mode": "pro",
+   "disabled": false,
+   "skipped": false,
+   "id": 135
+  },
+  {
+   "type": "prompt",
+   "title": "Prompt b03",
+   "x": 3100,
+   "y": 1300,
+   "w": 400,
+   "h": 300.0,
+   "inputs": [],
+   "outputs": [
+    "Prompt"
+   ],
+   "values": {
+    "prompt": "two hands in plain red rubber work gloves (no pattern, no logos) lay tiny orange bricks with a tiny trowel, starting the two ramps behind the walls. The bridge keeps exactly the size and height of the end frame. CAMERA: one continuous locked-off shot at toy eye level, real miniature scale, the same toys and the same bridge size as the frames, nothing disappears. SOUND: tiny brick clicks, a scraping trowel. Lively toy sounds, no music. Real tabletop miniature toy diorama filmed in macro, bright daylight, vivid colours. No music, no subtitles, no on-screen text, no logos."
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 136
+  },
+  {
+   "type": "video_generate",
+   "title": "b03",
+   "x": 3600,
+   "y": 1300,
+   "w": 400,
+   "h": 400.0,
+   "inputs": [
+    "Prompt",
+    "Start Image",
+    "End Image (Optional)"
+   ],
+   "outputs": [
+    "Video"
+   ],
+   "values": {
+    "mode": "image",
+    "model": "Omni [-4 ~ 15 credit]",
+    "ratio": "VIDEO_ASPECT_RATIO_LANDSCAPE",
+    "resolution": "720p"
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 137
+  },
+  {
+   "type": "frame_extract",
+   "title": "Last frame b02",
+   "x": 2200,
+   "y": 1860,
+   "w": 400,
+   "h": 100.0,
+   "inputs": [
+    "Video"
+   ],
+   "outputs": [
+    "Image"
+   ],
+   "values": {},
+   "disabled": false,
+   "skipped": false,
+   "id": 138
+  },
+  {
+   "type": "reference",
+   "title": "stp04",
+   "x": 2650,
+   "y": 1700,
+   "w": 400,
+   "h": 175.0,
+   "inputs": [],
+   "outputs": [
+    "Image"
+   ],
+   "values": {
+    "file_path": ""
+   },
+   "ref_mode": "pro",
+   "disabled": false,
+   "skipped": false,
+   "id": 139
+  },
+  {
+   "type": "prompt",
+   "title": "Prompt b04",
+   "x": 4500,
+   "y": 1300,
+   "w": 400,
+   "h": 300.0,
+   "inputs": [],
+   "outputs": [
+    "Prompt"
+   ],
+   "values": {
+    "prompt": "two hands in plain red rubber work gloves (no pattern, no logos) keep laying the tiny bricks up the slope until both ramp side walls are finished. The bridge keeps exactly the size and height of the end frame. CAMERA: one continuous locked-off shot at toy eye level, real miniature scale, the same toys and the same bridge size as the frames, nothing disappears. SOUND: tiny brick clicks, trowel taps. Lively toy sounds, no music. Real tabletop miniature toy diorama filmed in macro, bright daylight, vivid colours. No music, no subtitles, no on-screen text, no logos."
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 140
+  },
+  {
+   "type": "video_generate",
+   "title": "b04",
+   "x": 5000,
+   "y": 1300,
+   "w": 400,
+   "h": 400.0,
+   "inputs": [
+    "Prompt",
+    "Start Image",
+    "End Image (Optional)"
+   ],
+   "outputs": [
+    "Video"
+   ],
+   "values": {
+    "mode": "image",
+    "model": "Omni [-4 ~ 15 credit]",
+    "ratio": "VIDEO_ASPECT_RATIO_LANDSCAPE",
+    "resolution": "720p"
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 141
+  },
+  {
+   "type": "frame_extract",
+   "title": "Last frame b03",
+   "x": 3600,
+   "y": 1860,
+   "w": 400,
+   "h": 100.0,
+   "inputs": [
+    "Video"
+   ],
+   "outputs": [
+    "Image"
+   ],
+   "values": {},
+   "disabled": false,
+   "skipped": false,
+   "id": 142
+  },
+  {
+   "type": "reference",
+   "title": "stp05",
+   "x": 4050,
+   "y": 1700,
+   "w": 400,
+   "h": 175.0,
+   "inputs": [],
+   "outputs": [
+    "Image"
+   ],
+   "values": {
+    "file_path": ""
+   },
+   "ref_mode": "pro",
+   "disabled": false,
+   "skipped": false,
+   "id": 143
+  },
+  {
+   "type": "prompt",
+   "title": "Prompt b05",
+   "x": 5900,
+   "y": 1300,
+   "w": 400,
+   "h": 300.0,
+   "inputs": [],
+   "outputs": [
+    "Prompt"
+   ],
+   "values": {
+    "prompt": "two hands in plain red rubber work gloves (no pattern, no logos) tip tan sand from a tiny bucket into both ramps and pat it flat. The bridge keeps exactly the size and height of the end frame. CAMERA: one continuous locked-off shot at toy eye level, real miniature scale, the same toys and the same bridge size as the frames, nothing disappears. SOUND: sand pouring, soft pats. Lively toy sounds, no music. Real tabletop miniature toy diorama filmed in macro, bright daylight, vivid colours. No music, no subtitles, no on-screen text, no logos."
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 144
+  },
+  {
+   "type": "video_generate",
+   "title": "b05",
+   "x": 6400,
+   "y": 1300,
+   "w": 400,
+   "h": 400.0,
+   "inputs": [
+    "Prompt",
+    "Start Image",
+    "End Image (Optional)"
+   ],
+   "outputs": [
+    "Video"
+   ],
+   "values": {
+    "mode": "image",
+    "model": "Omni [-4 ~ 15 credit]",
+    "ratio": "VIDEO_ASPECT_RATIO_LANDSCAPE",
+    "resolution": "720p"
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 145
+  },
+  {
+   "type": "frame_extract",
+   "title": "Last frame b04",
+   "x": 5000,
+   "y": 1860,
+   "w": 400,
+   "h": 100.0,
+   "inputs": [
+    "Video"
+   ],
+   "outputs": [
+    "Image"
+   ],
+   "values": {},
+   "disabled": false,
+   "skipped": false,
+   "id": 146
+  },
+  {
+   "type": "reference",
+   "title": "stp06",
+   "x": 5450,
+   "y": 1700,
+   "w": 400,
+   "h": 175.0,
+   "inputs": [],
+   "outputs": [
+    "Image"
+   ],
+   "values": {
+    "file_path": ""
+   },
+   "ref_mode": "pro",
+   "disabled": false,
+   "skipped": false,
+   "id": 147
+  },
+  {
+   "type": "prompt",
+   "title": "Prompt b06",
+   "x": 7300,
+   "y": 1300,
+   "w": 400,
+   "h": 300.0,
+   "inputs": [],
+   "outputs": [
+    "Prompt"
+   ],
+   "values": {
+    "prompt": "two hands in plain red rubber work gloves (no pattern, no logos) lay a flat white board with a fine wire mesh across the tops of the two tall walls, high above the rails. The bridge keeps exactly the size and height of the end frame. CAMERA: one continuous locked-off shot at toy eye level, real miniature scale, the same toys and the same bridge size as the frames, nothing disappears. SOUND: a soft wooden tap, a light mesh rustle. Lively toy sounds, no music. Real tabletop miniature toy diorama filmed in macro, bright daylight, vivid colours. No music, no subtitles, no on-screen text, no logos."
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 148
+  },
+  {
+   "type": "video_generate",
+   "title": "b06",
+   "x": 7800,
+   "y": 1300,
+   "w": 400,
+   "h": 400.0,
+   "inputs": [
+    "Prompt",
+    "Start Image",
+    "End Image (Optional)"
+   ],
+   "outputs": [
+    "Video"
+   ],
+   "values": {
+    "mode": "image",
+    "model": "Omni [-4 ~ 15 credit]",
+    "ratio": "VIDEO_ASPECT_RATIO_LANDSCAPE",
+    "resolution": "720p"
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 149
+  },
+  {
+   "type": "frame_extract",
+   "title": "Last frame b05",
+   "x": 6400,
+   "y": 1860,
+   "w": 400,
+   "h": 100.0,
+   "inputs": [
+    "Video"
+   ],
+   "outputs": [
+    "Image"
+   ],
+   "values": {},
+   "disabled": false,
+   "skipped": false,
+   "id": 150
+  },
+  {
+   "type": "reference",
+   "title": "stp07",
+   "x": 6850,
+   "y": 1700,
+   "w": 400,
+   "h": 175.0,
+   "inputs": [],
+   "outputs": [
+    "Image"
+   ],
+   "values": {
+    "file_path": ""
+   },
+   "ref_mode": "pro",
+   "disabled": false,
+   "skipped": false,
+   "id": 151
+  },
+  {
+   "type": "prompt",
+   "title": "Prompt b07",
+   "x": 8700,
+   "y": 1300,
+   "w": 400,
+   "h": 300.0,
+   "inputs": [],
+   "outputs": [
+    "Prompt"
+   ],
+   "values": {
+    "prompt": "two hands in plain red rubber work gloves (no pattern, no logos) pour grey concrete over the deck and the ramps and smooth it with a tiny trowel. The bridge keeps exactly the size and height of the end frame. CAMERA: one continuous locked-off shot at toy eye level, real miniature scale, the same toys and the same bridge size as the frames, nothing disappears. SOUND: a thick concrete pour, a smooth trowel scrape. Lively toy sounds, no music. Real tabletop miniature toy diorama filmed in macro, bright daylight, vivid colours. No music, no subtitles, no on-screen text, no logos."
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 152
+  },
+  {
+   "type": "video_generate",
+   "title": "b07",
+   "x": 9200,
+   "y": 1300,
+   "w": 400,
+   "h": 400.0,
+   "inputs": [
+    "Prompt",
+    "Start Image",
+    "End Image (Optional)"
+   ],
+   "outputs": [
+    "Video"
+   ],
+   "values": {
+    "mode": "image",
+    "model": "Omni [-4 ~ 15 credit]",
+    "ratio": "VIDEO_ASPECT_RATIO_LANDSCAPE",
+    "resolution": "720p"
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 153
+  },
+  {
+   "type": "frame_extract",
+   "title": "Last frame b06",
+   "x": 7800,
+   "y": 1860,
+   "w": 400,
+   "h": 100.0,
+   "inputs": [
+    "Video"
+   ],
+   "outputs": [
+    "Image"
+   ],
+   "values": {},
+   "disabled": false,
+   "skipped": false,
+   "id": 154
+  },
+  {
+   "type": "reference",
+   "title": "stp08",
+   "x": 8250,
+   "y": 1700,
+   "w": 400,
+   "h": 175.0,
+   "inputs": [],
+   "outputs": [
+    "Image"
+   ],
+   "values": {
+    "file_path": ""
+   },
+   "ref_mode": "pro",
+   "disabled": false,
+   "skipped": false,
+   "id": 155
+  },
+  {
+   "type": "prompt",
+   "title": "Prompt b08",
+   "x": 10100,
+   "y": 1300,
+   "w": 400,
+   "h": 300.0,
+   "inputs": [],
+   "outputs": [
+    "Prompt"
+   ],
+   "values": {
+    "prompt": "two hands in plain red rubber work gloves (no pattern, no logos) press thin black railings into place along both edges of the deck and the ramps, then leave. The bridge keeps exactly the size and height of the end frame. CAMERA: one continuous locked-off shot at toy eye level, real miniature scale, the same toys and the same bridge size as the frames, nothing disappears. SOUND: plastic clicks, a satisfied 'done!'. Lively toy sounds, no music. Real tabletop miniature toy diorama filmed in macro, bright daylight, vivid colours. No music, no subtitles, no on-screen text, no logos."
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 156
+  },
+  {
+   "type": "video_generate",
+   "title": "b08",
+   "x": 10600,
+   "y": 1300,
+   "w": 400,
+   "h": 400.0,
+   "inputs": [
+    "Prompt",
+    "Start Image",
+    "End Image (Optional)"
+   ],
+   "outputs": [
+    "Video"
+   ],
+   "values": {
+    "mode": "image",
+    "model": "Omni [-4 ~ 15 credit]",
+    "ratio": "VIDEO_ASPECT_RATIO_LANDSCAPE",
+    "resolution": "720p"
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 157
+  },
+  {
+   "type": "frame_extract",
+   "title": "Last frame b07",
+   "x": 9200,
+   "y": 1860,
+   "w": 400,
+   "h": 100.0,
+   "inputs": [
+    "Video"
+   ],
+   "outputs": [
+    "Image"
+   ],
+   "values": {},
+   "disabled": false,
+   "skipped": false,
+   "id": 158
+  },
+  {
+   "type": "reference",
+   "title": "stp09",
+   "x": 9650,
+   "y": 1700,
+   "w": 400,
+   "h": 175.0,
+   "inputs": [],
+   "outputs": [
+    "Image"
+   ],
+   "values": {
+    "file_path": ""
+   },
+   "ref_mode": "pro",
+   "disabled": false,
+   "skipped": false,
+   "id": 159
+  },
+  {
+   "type": "prompt",
+   "title": "Prompt t01",
+   "x": 300,
+   "y": 2600,
+   "w": 400,
+   "h": 300.0,
+   "inputs": [],
+   "outputs": [
+    "Prompt"
+   ],
+   "values": {
+    "prompt": "The red toy tractor with the toy farmer drives up the brick ramp and onto the bridge deck. CAMERA: one continuous locked-off shot at toy eye level, real miniature scale, the same toys and the same bridge size as the frames, nothing disappears. SOUND: a puttering engine, a cheerful 'Yay!'. Lively toy sounds, no music. Real tabletop miniature toy diorama filmed in macro, bright daylight, vivid colours. No music, no subtitles, no on-screen text, no logos."
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 160
+  },
+  {
+   "type": "video_generate",
+   "title": "t01",
+   "x": 800,
+   "y": 2600,
+   "w": 400,
+   "h": 400.0,
+   "inputs": [
+    "Prompt",
+    "Start Image",
+    "End Image (Optional)"
+   ],
+   "outputs": [
+    "Video"
+   ],
+   "values": {
+    "mode": "image",
+    "model": "Omni [-4 ~ 15 credit]",
+    "ratio": "VIDEO_ASPECT_RATIO_LANDSCAPE",
+    "resolution": "720p"
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 161
+  },
+  {
+   "type": "reference",
+   "title": "sc11",
+   "x": -150,
+   "y": 2600,
+   "w": 400,
+   "h": 175.0,
+   "inputs": [],
+   "outputs": [
+    "Image"
+   ],
+   "values": {
+    "file_path": ""
+   },
+   "ref_mode": "pro",
+   "disabled": false,
+   "skipped": false,
+   "id": 162
+  },
+  {
+   "type": "prompt",
+   "title": "Prompt t02",
+   "x": 1700,
+   "y": 2600,
+   "w": 400,
+   "h": 300.0,
+   "inputs": [],
+   "outputs": [
+    "Prompt"
+   ],
+   "values": {
+    "prompt": "The tractor crosses the deck while the toy steam train passes under the bridge, through the tall opening between the concrete walls. CAMERA: one continuous locked-off shot at toy eye level, real miniature scale, the same toys and the same bridge size as the frames, nothing disappears. SOUND: a toy train chug-chug echoing under the bridge, a happy whistle. Lively toy sounds, no music. Real tabletop miniature toy diorama filmed in macro, bright daylight, vivid colours. No music, no subtitles, no on-screen text, no logos."
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 163
+  },
+  {
+   "type": "video_generate",
+   "title": "t02",
+   "x": 2200,
+   "y": 2600,
+   "w": 400,
+   "h": 400.0,
+   "inputs": [
+    "Prompt",
+    "Start Image",
+    "End Image (Optional)"
+   ],
+   "outputs": [
+    "Video"
+   ],
+   "values": {
+    "mode": "image",
+    "model": "Omni [-4 ~ 15 credit]",
+    "ratio": "VIDEO_ASPECT_RATIO_LANDSCAPE",
+    "resolution": "720p"
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 164
+  },
+  {
+   "type": "frame_extract",
+   "title": "Last frame t01",
+   "x": 800,
+   "y": 3160,
+   "w": 400,
+   "h": 100.0,
+   "inputs": [
+    "Video"
+   ],
+   "outputs": [
+    "Image"
+   ],
+   "values": {},
+   "disabled": false,
+   "skipped": false,
+   "id": 165
+  },
+  {
+   "type": "prompt",
+   "title": "Prompt t03",
+   "x": 3100,
+   "y": 2600,
+   "w": 400,
+   "h": 300.0,
+   "inputs": [],
+   "outputs": [
+    "Prompt"
+   ],
+   "values": {
+    "prompt": "Nutty waves at the roadside, the train rolls under the bridge, the tractor crosses on top. He says: \"Okay, let's go!\" CAMERA: one continuous locked-off shot at toy eye level, real miniature scale, the same toys and the same bridge size as the frames, nothing disappears. SOUND: chugging, puttering, a squeaky cartoon voice \"Okay, let's go!\" louder than the effects. Lively toy sounds, no music. Real tabletop miniature toy diorama filmed in macro, bright daylight, vivid colours. No music, no subtitles, no on-screen text, no logos."
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 166
+  },
+  {
+   "type": "video_generate",
+   "title": "t03",
+   "x": 3600,
+   "y": 2600,
+   "w": 400,
+   "h": 400.0,
+   "inputs": [
+    "Prompt",
+    "Start Image",
+    "End Image (Optional)"
+   ],
+   "outputs": [
+    "Video"
+   ],
+   "values": {
+    "mode": "image",
+    "model": "Omni [-4 ~ 15 credit]",
+    "ratio": "VIDEO_ASPECT_RATIO_LANDSCAPE",
+    "resolution": "720p"
+   },
+   "disabled": false,
+   "skipped": false,
+   "id": 167
+  },
+  {
+   "type": "reference",
+   "title": "sc13",
+   "x": 2650,
+   "y": 2600,
+   "w": 400,
+   "h": 175.0,
+   "inputs": [],
+   "outputs": [
+    "Image"
+   ],
+   "values": {
+    "file_path": ""
+   },
+   "ref_mode": "pro",
+   "disabled": false,
+   "skipped": false,
+   "id": 168
+  }
+ ],
+ "edges": [
+  {
+   "start_node": 0,
+   "start_socket": 0,
+   "end_node": 1,
+   "end_socket": 0
+  },
+  {
+   "start_node": 2,
+   "start_socket": 0,
+   "end_node": 1,
+   "end_socket": 1
+  },
+  {
+   "start_node": 3,
+   "start_socket": 0,
+   "end_node": 4,
+   "end_socket": 0
+  },
+  {
+   "start_node": 1,
+   "start_socket": 0,
+   "end_node": 5,
+   "end_socket": 0
+  },
+  {
+   "start_node": 5,
+   "start_socket": 0,
+   "end_node": 4,
+   "end_socket": 1
+  },
+  {
+   "start_node": 6,
+   "start_socket": 0,
+   "end_node": 4,
+   "end_socket": 2
+  },
+  {
+   "start_node": 7,
+   "start_socket": 0,
+   "end_node": 8,
+   "end_socket": 0
+  },
+  {
+   "start_node": 4,
+   "start_socket": 0,
+   "end_node": 9,
+   "end_socket": 0
+  },
+  {
+   "start_node": 9,
+   "start_socket": 0,
+   "end_node": 8,
+   "end_socket": 1
+  },
+  {
+   "start_node": 10,
+   "start_socket": 0,
+   "end_node": 11,
+   "end_socket": 0
+  },
+  {
+   "start_node": 12,
+   "start_socket": 0,
+   "end_node": 11,
+   "end_socket": 1
+  },
+  {
+   "start_node": 13,
+   "start_socket": 0,
+   "end_node": 14,
+   "end_socket": 0
+  },
+  {
+   "start_node": 15,
+   "start_socket": 0,
+   "end_node": 14,
+   "end_socket": 1
+  },
+  {
+   "start_node": 16,
+   "start_socket": 0,
+   "end_node": 17,
+   "end_socket": 0
+  },
+  {
+   "start_node": 18,
+   "start_socket": 0,
+   "end_node": 17,
+   "end_socket": 1
+  },
+  {
+   "start_node": 19,
+   "start_socket": 0,
+   "end_node": 20,
+   "end_socket": 0
+  },
+  {
+   "start_node": 21,
+   "start_socket": 0,
+   "end_node": 20,
+   "end_socket": 1
+  },
+  {
+   "start_node": 22,
+   "start_socket": 0,
+   "end_node": 23,
+   "end_socket": 0
+  },
+  {
+   "start_node": 24,
+   "start_socket": 0,
+   "end_node": 23,
+   "end_socket": 1
+  },
+  {
+   "start_node": 25,
+   "start_socket": 0,
+   "end_node": 26,
+   "end_socket": 0
+  },
+  {
+   "start_node": 27,
+   "start_socket": 0,
+   "end_node": 26,
+   "end_socket": 1
+  },
+  {
+   "start_node": 28,
+   "start_socket": 0,
+   "end_node": 29,
+   "end_socket": 0
+  },
+  {
+   "start_node": 30,
+   "start_socket": 0,
+   "end_node": 29,
+   "end_socket": 1
+  },
+  {
+   "start_node": 31,
+   "start_socket": 0,
+   "end_node": 29,
+   "end_socket": 2
+  },
+  {
+   "start_node": 32,
+   "start_socket": 0,
+   "end_node": 33,
+   "end_socket": 0
+  },
+  {
+   "start_node": 29,
+   "start_socket": 0,
+   "end_node": 34,
+   "end_socket": 0
+  },
+  {
+   "start_node": 34,
+   "start_socket": 0,
+   "end_node": 33,
+   "end_socket": 1
+  },
+  {
+   "start_node": 35,
+   "start_socket": 0,
+   "end_node": 33,
+   "end_socket": 2
+  },
+  {
+   "start_node": 36,
+   "start_socket": 0,
+   "end_node": 37,
+   "end_socket": 0
+  },
+  {
+   "start_node": 33,
+   "start_socket": 0,
+   "end_node": 38,
+   "end_socket": 0
+  },
+  {
+   "start_node": 38,
+   "start_socket": 0,
+   "end_node": 37,
+   "end_socket": 1
+  },
+  {
+   "start_node": 39,
+   "start_socket": 0,
+   "end_node": 37,
+   "end_socket": 2
+  },
+  {
+   "start_node": 40,
+   "start_socket": 0,
+   "end_node": 41,
+   "end_socket": 0
+  },
+  {
+   "start_node": 37,
+   "start_socket": 0,
+   "end_node": 42,
+   "end_socket": 0
+  },
+  {
+   "start_node": 42,
+   "start_socket": 0,
+   "end_node": 41,
+   "end_socket": 1
+  },
+  {
+   "start_node": 43,
+   "start_socket": 0,
+   "end_node": 41,
+   "end_socket": 2
+  },
+  {
+   "start_node": 44,
+   "start_socket": 0,
+   "end_node": 45,
+   "end_socket": 0
+  },
+  {
+   "start_node": 41,
+   "start_socket": 0,
+   "end_node": 46,
+   "end_socket": 0
+  },
+  {
+   "start_node": 46,
+   "start_socket": 0,
+   "end_node": 45,
+   "end_socket": 1
+  },
+  {
+   "start_node": 47,
+   "start_socket": 0,
+   "end_node": 45,
+   "end_socket": 2
+  },
+  {
+   "start_node": 48,
+   "start_socket": 0,
+   "end_node": 49,
+   "end_socket": 0
+  },
+  {
+   "start_node": 45,
+   "start_socket": 0,
+   "end_node": 50,
+   "end_socket": 0
+  },
+  {
+   "start_node": 50,
+   "start_socket": 0,
+   "end_node": 49,
+   "end_socket": 1
+  },
+  {
+   "start_node": 51,
+   "start_socket": 0,
+   "end_node": 49,
+   "end_socket": 2
+  },
+  {
+   "start_node": 52,
+   "start_socket": 0,
+   "end_node": 53,
+   "end_socket": 0
+  },
+  {
+   "start_node": 49,
+   "start_socket": 0,
+   "end_node": 54,
+   "end_socket": 0
+  },
+  {
+   "start_node": 54,
+   "start_socket": 0,
+   "end_node": 53,
+   "end_socket": 1
+  },
+  {
+   "start_node": 55,
+   "start_socket": 0,
+   "end_node": 53,
+   "end_socket": 2
+  },
+  {
+   "start_node": 56,
+   "start_socket": 0,
+   "end_node": 57,
+   "end_socket": 0
+  },
+  {
+   "start_node": 53,
+   "start_socket": 0,
+   "end_node": 58,
+   "end_socket": 0
+  },
+  {
+   "start_node": 58,
+   "start_socket": 0,
+   "end_node": 57,
+   "end_socket": 1
+  },
+  {
+   "start_node": 59,
+   "start_socket": 0,
+   "end_node": 57,
+   "end_socket": 2
+  },
+  {
+   "start_node": 60,
+   "start_socket": 0,
+   "end_node": 61,
+   "end_socket": 0
+  },
+  {
+   "start_node": 62,
+   "start_socket": 0,
+   "end_node": 61,
+   "end_socket": 1
+  },
+  {
+   "start_node": 63,
+   "start_socket": 0,
+   "end_node": 64,
+   "end_socket": 0
+  },
+  {
+   "start_node": 61,
+   "start_socket": 0,
+   "end_node": 65,
+   "end_socket": 0
+  },
+  {
+   "start_node": 65,
+   "start_socket": 0,
+   "end_node": 64,
+   "end_socket": 1
+  },
+  {
+   "start_node": 66,
+   "start_socket": 0,
+   "end_node": 67,
+   "end_socket": 0
+  },
+  {
+   "start_node": 68,
+   "start_socket": 0,
+   "end_node": 67,
+   "end_socket": 1
+  }
+ ],
+ "groups": []
+}
