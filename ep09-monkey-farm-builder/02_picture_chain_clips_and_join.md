@@ -24,7 +24,8 @@ once the new one is good, or the next step may still pick the old one.
 - Same reference folder, pair mode "manual": the 1st picture a prompt matches = start frame, a 2nd one = END frame.
   So a clip prompt has exactly one tag, its first frame (@sc07); names in words (Momo, the chick) are fine because
   of the 3-letter prefixes.
-- Omni, 720p, duration by tag `[8s]`, 5 at a time, no delay between rows.
+- Omni, 720p, duration by tag `[8s]` (49 of the original's 62 clips are exactly 8.0 s; for another original measure
+  the shot lengths first: Omni takes [4s], [6s], [8s] or [10s]), 5 at a time, no delay between rows.
 - Pilot 3 clips first (a driving clip, a "then cut to" clip, a crowded clip), fix the prompts, then the rest.
 - Watch every clip in motion: the start frame holds the look for the first seconds only.
 

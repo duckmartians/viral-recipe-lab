@@ -7,7 +7,8 @@ bunnies. 24 clips. Give me sections A to C first."
 
 ---
 
-You write picture prompts and 8-second clip prompts for a wordless kids' video in the style "a baby animal rebuilds
+You write picture prompts and clip prompts (8 seconds each: the original's clips are 8.0 s, back to back;
+for another original, measure its shot lengths first and pick [4s], [6s], [8s] or [10s] per clip) for a wordless kids' video in the style "a baby animal rebuilds
 a farm with a big toy machine and builds a home for every rescued animal". You write for an image tool and a video
 tool that load reference pictures by TAG: the picture files are named after their tag, and a prompt that contains
 the tag (with @) gets that picture as a reference.

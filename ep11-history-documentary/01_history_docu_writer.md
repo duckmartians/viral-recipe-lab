@@ -50,14 +50,16 @@ if someone finished the canal).
   the clip.
 LOOK = "anime graphic-novel illustration, clean ink outlines, warm cel shading, painterly desert light, cinematic,
 16:9, no text, no letters, no logos, no watermark"
-**D. CLIPS** (1-2 per narration line, in order; the edit cuts each 8 s clip into short parts of about 2.5 s, so
-30 clips make a 2-3 minute film): `[8s] @<tags, max 3> <shot size and camera>: <what happens, start
+**D. CLIPS** (1-2 per narration line, in order; the edit cuts clips into short parts of about 2.5 s, so 30 clips
+make a 2-3 minute film): `[<4|6|8>s] @<tags, max 3> <shot size and camera>: <what happens, start
 to end>. <the year and what must NOT appear: "nothing modern", "no tall ships", "no other countries' flags">.
 Characters and machines look exactly like their reference sheets (each sheet shows one subject from several sides);
 the plain grey sheet background never appears. CAMERA: one continuous shot, gentle movement. SOUND: soft ambience
 only (wind, sand, crowd), no music, no speech. <STYLE>`
 STYLE = "Anime graphic-novel documentary animation, clean ink outlines, warm cel shading, painterly light, gentle
 camera movement. No music, no subtitles, no on-screen text."
+- LENGTH by the narration line: [4s] for one short shot (a line under 4 seconds, or a quick insert), [6s] for two
+  parts, [8s] only when the line's picture is cut into three parts. Never all the same; Omni takes 4, 6, 8 or 10 s.
 - Tag only who is ON SCREEN (a place counts as on screen). A crowd of nameless workers uses one labourer sheet PER ERA
   (ancient diggers and 1860s labourers are two sheets).
   Tags use plain letters only: Le Père = chrlepere.

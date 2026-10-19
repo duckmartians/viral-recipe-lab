@@ -26,7 +26,7 @@ No first frames: each clip is built from the model sheet(s) and one place pictur
 | Wait time | Immediately | |
 | Resolution | 720p | enough for macro shots, quicker and cheaper than 1080p |
 | Videos per prompt | 1 | |
-| Duration | Random, then "use the [Ns] tag in the prompt" | each prompt starts with [8s]; the tag sets that clip's length |
+| Duration | Random, then "use the [Ns] tag in the prompt" | each prompt starts with its own length, [4s], [6s] or [8s] by the action; the tag sets that clip's length |
 | Reference images folder | the pictures folder | the @tags in each prompt pull the model sheets and the place |
 Paste all the clip prompts from section B (one per line) and press Start. Check the first three clips before you
 leave the rest running: right car from every side, right place, no grey background at the start.
@@ -44,4 +44,5 @@ clip sounds low under upbeat music.
 | The place pictures came back with a car already parked in them | Never write "model car" in a place prompt; "completely empty: no cars, no toys, no vehicles of any kind" |
 | Some clips opened on the plain grey background of the car picture | One line in every clip: "the plain grey background never appears: from the very first frame the scene is outdoors in the location" |
 | The grille turned into vertical slats (a famous off-roader look) | The grille in words in every clip that shows it: "three thick horizontal chrome bars, never vertical slats" |
+| We gave every clip [8s]: half of most clips was cut away (paid seconds never shown) | [4s] details and doors, [6s] one move, [8s] only for long moves used as two shots |
 | A real car brand and real army / air-force liveries in the original | An invented SUV, a star stencil, no badge, no text, no flags |

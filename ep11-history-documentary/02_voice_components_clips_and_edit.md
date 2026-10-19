@@ -29,7 +29,7 @@ height, large and detailed".
 | Model | Omni | up to 3 reference pictures per clip |
 | Concurrent rows / Wait time | 5 / Immediately | |
 | Resolution | 720p | quicker and cheaper; the style hides it |
-| Duration | Random, then "use the [Ns] tag in the prompt" | every prompt starts with [8s] |
+| Duration | Random, then "use the [Ns] tag in the prompt" | every prompt starts with its length: [4s], [6s] or [8s] by how many short shots its line needs |
 | Reference images folder | the pictures folder | the @tags pull the right sheets |
 Pilot three clips first (a person, a machine, a place), check them, then paste the rest.
 
@@ -49,4 +49,5 @@ sample: 31 clips, 49 shots in 2:20, median 2.5 s.
 | The 1875 flag was the modern Egyptian flag; the 1956 crowd waved foreign flags | Describe the flag of that year and "no other countries' flags" |
 | A helper walked up close and became a twin of the engineer | "Stays far away for the whole shot; only one engineer, never two" |
 | A clip opened on the grey sheet background for a second, another cut inside the clip | Trim the first seconds in the edit |
+| We gave every clip [8s]: most of each clip was cut away in the edit (paid seconds never shown) | Pick the length by the line: [4s] one shot, [6s] two, [8s] three |
 | A narration line with one long, empty shot looked slow | Add a clip for that line (1847 surveyors) |
