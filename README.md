@@ -20,6 +20,7 @@ version step by step. Every episode gets its own folder with the exact prompts u
 | 11 | AI history documentary videos (sourced facts, one narrator over fast cuts, character sheets + clips from components) | [ep11-history-documentary](ep11-history-documentary) |
 | 12 | AI diecast car showcase videos (one model in two colours, a camera at car height, model sheets, music only) | [ep12-diecast-showcase](ep12-diecast-showcase) |
 | 13 | AI farm to table videos (one crop from barren land to the kitchen, one place picture per stage, clip length by action) | [ep13-desert-farm-to-table](ep13-desert-farm-to-table) |
+| 14 | AI cartoon explainer videos (a big question, three sourced clues, a picture every 2 seconds, one voice, G-Labs slideshow) | [ep14-cartoon-explainer](ep14-cartoon-explainer) |
 
 ## How to use
 1. Open the episode folder and copy the prompt file into your AI chat (Claude, ChatGPT, Gemini...).
