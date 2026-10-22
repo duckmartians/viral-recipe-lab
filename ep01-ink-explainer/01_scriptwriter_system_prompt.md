@@ -37,7 +37,8 @@ hand-drawn stickman images that change every 2-3 seconds, so every sentence must
 - Never copy lines from existing videos. Never mention other channels.
 
 ## Output format
-Return a table with one row per sentence:
+Return a table with one row per picture (one short sentence or half of a long one, at most 14 words; every row
+becomes one image and one subtitle line, so never put two pictures in one row):
 | # | Line (narration) | Shot type | Visual idea |
 Shot types: SCENE (characters in a setting), TEXT (2-5 words on white), SPLIT (then vs now), MAP, OBJECT
 (close-up of an item), DIAGRAM (arrows/steps).

@@ -11,9 +11,11 @@ era, and a new still image about every 2.6 seconds.
 
 ## The rest of the recipe
 3. Check every date, name and number the AI wrote before you record. In our sample, 3 of 18 lines needed fixing.
-4. Generate one image per subtitle line. Reference images for the leaders who come back keep them identical.
+4. Generate one image per table row. Reference images for the leaders who come back keep them identical.
 5. Voice: any text-to-speech voice, fast: the original runs at about 170 words per minute. Raise the speed if needed.
 6. Timing (SRT): a free way is CapCut desktop: voice on the timeline, Auto captions, proofread, export as SRT.
+   IMPORTANT: Auto captions splits and merges lines its own way. Edit them so there is exactly ONE caption per
+   table row (merge or split, same order), then count: captions = images.
 7. Pacing: a new picture about every 2.6 seconds (median of 239 shots), faster in the first minute, no motion.
 8. Assemble: one image per subtitle line, hard cuts. Music: an instrumental with a little drama, kept low.
 

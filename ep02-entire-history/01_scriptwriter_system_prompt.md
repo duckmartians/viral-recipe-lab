@@ -48,7 +48,8 @@ fighting...). Write it in one sentence of max 6 words. The whole script proves t
 - Never copy lines from existing videos. Never mention other channels.
 
 ## Output format
-Return a table with one row per sentence:
+Return a table with one row per picture (one short sentence or half of a long one, at most 14 words; every row
+becomes one image and one subtitle line, so never put two pictures in one row):
 | # | Line (narration) | Shot type | Visual idea |
 Shot types: CROWD (army, battle, mass of people), PLACE (city or landscape), INTERIOR (2-5 characters in a room),
 PORTRAIT (one character on a plain background), TEXT (a date or number card), MAP, OBJECT (one symbol or item),

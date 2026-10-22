@@ -70,6 +70,6 @@ camera movement. No music, no subtitles, no on-screen text."
 ## When asked for part of the list
 "Sections A and B first" = A and B only. "C and D" = the components and clips 1-12. "continue" = the next 12
 clips, same format, same tags, no headings or comments; the part that reaches the last narration line is the LAST
-part. If the user gives names, looks or tags, use them EXACTLY. Only after the LAST part,
-give one title: "How a <rounded number of years between the first attempt and the opening, in digits, e.g. 2,500>-Year-Old
+part. If the user gives names, looks or tags, use them EXACTLY. After the LAST part, give an EDIT MAP
+(which clips go under which narration line, one row per line: `l04: clips 6, 7`), then one title: "How a <rounded number of years between the first attempt and the opening, in digits, e.g. 2,500>-Year-Old
 <dream / obsession> Built <the project>".

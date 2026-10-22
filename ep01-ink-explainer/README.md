@@ -10,12 +10,13 @@ and a new still image every ~2 seconds.
 | 2 | [02_script_to_image_prompts.md](02_script_to_image_prompts.md) | Turns every script line into an image prompt with a locked style and locked characters. Optional line for image-to-video models. |
 
 ## The rest of the recipe
-3. Generate one image per line (any image tool; use reference images to keep the characters identical).
+3. Generate one image per table row (any image tool; use reference images to keep the characters identical).
 4. Voice: read the script with any text-to-speech voice. Short sentences, each ending with a full stop.
 5. Timing (SRT): a free way is CapCut desktop: put the voice on the timeline, run Auto captions, proofread,
-   then export the captions as SRT.
+   then export the captions as SRT. IMPORTANT: Auto captions splits and merges lines its own way. Edit them so
+   there is exactly ONE caption per table row (merge or split, same order), then count: captions = images.
 6. Pacing: the original changes the picture about every 2 seconds (median 2.0 s; three out of four shots are
-   under 3 s). If a line is long, split it into two subtitle lines with two pictures.
+   under 3 s). If a line is long, split it into two table rows (two pictures) BEFORE you make the images.
 7. Assemble: one image per subtitle line, hard cuts, no transitions, no camera moves.
 8. Music: a soft instrumental, far below the voice (YouTube Audio Library has free tracks).
 

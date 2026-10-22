@@ -34,7 +34,7 @@ height, large and detailed".
 Pilot three clips first (a person, a machine, a place), check them, then paste the rest.
 
 ## 4. The edit (narration first)
-Put each voice line at its time, with 0.7 s between lines. The picture under a line = that line's clips, cut into
+Put each voice line at its time, with 0.7 s between lines. The picture under a line = that line's clips (the EDIT MAP at the end of the writer's reply lists them), cut into
 short shots (about 2.5 s): clip 1 part 1, clip 2 part 1, clip 1 part 2... Two parts of the same clip are never next
 to each other, so each one feels like a new shot. Keep the clip ambience low under the voice, music under all,
 lowered while the voice speaks. The original: 203 shots in 11 minutes, median 2.1 s, one narrator at 140 wpm. Our
