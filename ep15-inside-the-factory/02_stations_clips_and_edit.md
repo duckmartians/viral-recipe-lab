@@ -34,6 +34,7 @@ keep the clip sound, no music.
 | A clip without a station picture gets an invented machine | One empty picture per station (we made 18), and every clip tags one |
 | A clip jumped to another room after 5 seconds (grinder -> packing) | "The whole clip stays at this one machine, never cuts to another room or step"; trim the old clip at 5 s |
 | Even with that line, 1 of 30 clips (the pipes) dissolved into the filling line after 3 seconds | Don't regenerate: keep the part before the jump (a 3-second shot is fine between 8-second ones) |
+| The chilies came out as long as a banana tree next to the truck (clips 1-5 too big; the clips with gloved hands were right) | The prompt had no size: add "SCALE: every chili is small, about 12 cm long, no longer than a gloved hand; thousands of them, tiny next to the truck" to every clip with the whole raw material, and redo those clips |
 | A filling clip stood still for 5 seconds before anything moved | "The action is already happening in the very first second" |
 | AI labels and screens come out as garbled text | Labels: only a small drawing, no words; screens: only graphs and grid lines |
 | The original shows brand-like logos on machines | "unbranded", "no logos, no brand names" in every prompt |

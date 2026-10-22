@@ -37,7 +37,8 @@ Every clip is [8s]: the original is 8-second clips back to back. One machine per
   nobody there. <LOOK>.`
 - ONE sheet for the raw material and all its stages (raw -> ground -> finished): `frtname: <dots> Ingredient reference sheet: ONE image split into a clean 2x2 grid on
   plain light-grey: <raw, one close-up, after grinding or cutting, the finished food in a bowl>. Thin white gaps.
-  photoreal macro food photograph, 16:9, no text, no letters.`
+  photoreal macro food photograph, 16:9, no text, no letters.` Put a gloved hand holding
+  one piece in the close-up panel, so the size is visible.
 - The packaging: `prdgoods: <dots> Product reference sheet: ONE image split into a clean 2x2 grid: <empty container>,
   <filled and closed>, <a case of them>, <a wrapped pallet>. Labels show only a small drawing, absolutely no words,
   no letters, no logos anywhere.`
@@ -54,6 +55,10 @@ very first frame the scene is in the factory. Machines, trucks and clothes have 
 speaks. The whole clip stays at this one machine (never cuts to another room or another step), and the action is
 already happening in the very first second. CAMERA: one continuous shot, no cuts. SOUND: <the machine's own sound>,
 no music, no speech. <STYLE>`
+- SCALE: AI has no idea how big the food is and blows it up to fill the shot (our chilies came out as long as a
+  banana tree next to the truck). Every clip that shows the whole raw material adds one sentence with its real size,
+  compared with something in the shot: `SCALE: every <food> is small, <real length, e.g. about 12 cm>, no longer than a
+  gloved hand; thousands of them together, tiny next to the truck, the hopper and the machines.`
 - Drop the square brackets: write a bracketed sentence only when that tag is in the clip. Food that is only seen
   inside a closed bottle needs @prd, not @frt.
 - Station pictures are empty on purpose; a clip may still add workers in words.
