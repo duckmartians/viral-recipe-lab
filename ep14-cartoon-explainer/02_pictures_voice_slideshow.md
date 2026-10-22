@@ -7,7 +7,7 @@ figure (a single rounded number) -> the 2011 range "at least 83,000, possibly 17
 with dry grass" (the museum says leather soles, fur inside).
 
 ## 1. The voice (any AI voice tool)
-One voice, one file per narration line. The original reads about 165 words a minute with its pauses; our Iapetus voice
+One voice, one file per narration line (one line = one picture, so the subtitle file has one cue per picture). The original reads about 165 words a minute with its pauses; our Iapetus voice
 at speed 1.05 gave 164 (311 words in 1:54). Measure yours: words / minutes of the finished track.
 
 ## 2. The pictures (the image page), two runs
@@ -25,8 +25,8 @@ Run 2: all pictures (section D). Every picture that tags @chrname gets that shee
 ## 3. The slideshow (Video Tools > Auto Image Slideshow)
 | Setting | Value | Why |
 |---|---|---|
-| Images | the pictures in order (sc01a, sc01b, sc02a...) | one picture per subtitle line |
-| Subtitle (SRT) | one cue per picture, timed to the voice | the picture changes exactly when its cue starts |
+| Images | the pictures in order (sc01, sc02, sc03...) | one picture per subtitle line |
+| Subtitle (SRT) | the voice tool's subtitle file: one cue per narration line = one per picture | the picture changes exactly when its cue starts |
 | Audio | the voice track | |
 | Export quality > Resolution | Keep original | the app only offers sizes up to the source; Nano Banana 1K pictures are 1376 px wide, so scale to 1080p afterwards (or make 2K pictures) |
 | Aspect ratio / When ratio changes | 16:9 / Crop to fill | |
@@ -39,4 +39,5 @@ Press Export Video. Then check: every cut lands on its subtitle (ours: 46 of 46 
 | Two character sheets drew tiny figures (one with a stray extra head) | "Exactly ONE figure in each panel... drawn LARGE, fills the whole panel height"; redo before the scene run |
 | "A bearskin cap" became a royal guardsman's tall hat with a red uniform | Describe the object and what it is NOT: "a low round cap sewn from patches of fur, not a tall guardsman hat, no uniform" |
 | "A chief" got a feather headdress (a stereotype, wrong era) | "A prehistoric elder in a dyed hide cape and a shell-bead necklace, no feathers, no headdress" |
+| (Viewers) more pictures than subtitle lines: the extra pictures had no line to sit on | One narration line per picture (file 1, section B). Count both before you import: pictures = subtitle lines |
 | The slideshow options sit in a scrolling panel; opening one section closes another | Open the section you change, check the ticks before you export |

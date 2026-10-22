@@ -12,8 +12,9 @@ We make the same story with AI, with a source for every number.
 | 3 | [03_clothes_fact_list_with_sources.md](03_clothes_fact_list_with_sources.md) | The original's 35 claims, graded and sourced. |
 
 ## The rest of the recipe
-4. Run 1: the character sheets (one figure per panel, drawn large). Run 2: all pictures, each tagging its sheets.
-5. Slideshow: one picture per subtitle line, the voice, 16:9 crop, pan left/right and zoom in/out.
+4. One narration line = one picture = one subtitle line (pictures and subtitle lines must be the same number).
+5. Run 1: the character sheets (one figure per panel, drawn large). Run 2: all pictures, each tagging its sheets.
+6. Slideshow: one picture per subtitle line, the voice, 16:9 crop, pan left/right and zoom in/out.
 
 ## What we measured in the original
 - 8:14, 3.82M views; 181 pictures, median 2.4 s, still 70% of the time; one voice at about 165 words a minute, no music.

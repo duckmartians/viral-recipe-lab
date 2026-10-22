@@ -28,25 +28,29 @@ named after their tag, and a prompt that contains the tag (with @) gets that pic
 ## Tags
 - Characters: 3-letter prefix chr + one word, all lowercase (chrmodern, chrforager). No tag may be the start of another.
 - EVERY picture prompt (character sheets AND scene pictures) starts with its own tag, a colon, a space and dots: tag +
-  colon + space + dots = exactly 30 characters, then one space (dots = 28 minus the tag length). Scene pictures use sc + line number + letter:
-  `sc04b: ....................... ` (30 characters + a space). Why: the tool names each file after the first 30 characters; without a tag head, a scene
+  colon + space + dots = exactly 30 characters, then one space (dots = 28 minus the tag length). Scene pictures use sc + the line number:
+  `sc04: ........................ ` (30 characters + a space). Why: the tool names each file after the first 30 characters; without a tag head, a scene
   file would be named after your style words, and every later prompt (which repeats those words) would pull it in.
 
 ## Output format (one prompt per line, inside code blocks)
 **A. FACTS**: a numbered list, one fact per line, with its source and the exact figure the source gives.
-**B. NARRATION**: about 24 lines, `l01: <line>`, 300-350 words counted as spoken (165 words a minute = 2 minutes).
-One idea per line, short sentences. Write numbers in digits (83,000); the voice reads them. Never narrow a source's
+**B. NARRATION**: 45-50 lines, `l01: <line>`, 300-380 words counted as spoken (165 words a minute = about 2 minutes).
+ONE LINE = ONE PICTURE = ONE SUBTITLE: each line is one short phrase of 4-12 words (2-3 seconds spoken). A long
+sentence is split over several lines ("Stone lasts." / "A hand axe can sit in the ground for a million years.").
+Why: the voice tool makes one file per line and the slideshow puts one picture on each subtitle line, so the
+number of pictures must equal the number of lines. Write numbers in digits (83,000); the voice reads them. Never narrow a source's
 range, and never use a source's "safer wording" if it changes the numbers.
 **C. CHARACTER SHEETS** (no @tags), one per recurring character:
 `chrname: <dots up to 30 characters> Character sheet of <who, skin, hair, clothes of that time, one prop>: ONE image split into a clean 2x2
 grid on plain light-grey, each panel the same character: front view full body, side view full body, back view full
 body, and a head-and-shoulders close-up. Exactly ONE figure in each panel, nothing else in the panel. In the full-body
 panels the figure is drawn LARGE and fills the whole panel height from head to feet. Thin white gaps. <STYLE>, no text.`
-**D. PICTURES** (2-3 per narration line, in order; each covers one part of the line):
-`scNNx: <dots up to 30 characters> <what we see, who is where, @chrname if a character appears>. <STYLE>, no text.` and when a character is
+**D. PICTURES**: EXACTLY one picture per narration line, same number as the line (l07 -> sc07), so the count of
+pictures equals the count of lines:
+`scNN: <dots up to 30 characters> <what we see, who is where, @chrname if a character appears>. <STYLE>, no text.` and when a character is
 tagged, add after "no text.": "Each tagged character looks exactly like their character sheet, drawn as ONE single figure in one pose,
 not a character sheet." In a group scene, each tagged character appears once.
-- Text card: `scNNx: <dots up to 30 characters> The words <1-4 WORDS OR A NUMBER> in big hand-lettered capitals on <colour> background, <one
+- Text card: `scNN: <dots up to 30 characters> The words <1-4 WORDS OR A NUMBER> in big hand-lettered capitals on <colour> background, <one
   small icon>. <STYLE>. Only the words written above, spelled exactly, nothing else written anywhere.`
 - A nude or "nothing on" moment is shown by hiding: a face peeking around a door, a blush; never draw a bare body.
 - Write the period in words when it matters (prehistoric camp, no modern objects); never a stereotype costume (no
@@ -56,6 +60,6 @@ stick-figure people with round heads, dot eyes and expressive eyebrows, thin sti
 backgrounds, 16:9"
 
 ## When asked for part of the list
-"Sections A and B first" = A and B only. "C and D" = the sheets and pictures for lines 1-12. "continue" = the pictures
-for the next 12 lines, same format, no headings or comments; the part that reaches the last line is the LAST part.
+"Sections A and B first" = A and B only. "C and D" = the sheets and pictures 1-16. "continue" = the next 16
+pictures, same format, no headings or comments; the part that reaches the last line is the LAST part (it may be shorter than 16).
 Only after the LAST part, give one title: "Why Did Humans Start <...>?".
