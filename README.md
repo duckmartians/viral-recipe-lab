@@ -22,6 +22,8 @@ version step by step. Every episode gets its own folder with the exact prompts u
 | 13 | AI farm to table videos (one crop from barren land to the kitchen, one place picture per stage, clip length by action) | [ep13-desert-farm-to-table](ep13-desert-farm-to-table) |
 | 14 | AI cartoon explainer videos (a big question, three sourced clues, a picture every 2 seconds, one voice, G-Labs slideshow) | [ep14-cartoon-explainer](ep14-cartoon-explainer) |
 | 15 | AI "inside the factory" videos (one product station by station, one empty picture per machine, 8-second clips, machine sound only) | [ep15-inside-the-factory](ep15-inside-the-factory) |
+| 16 | AI "grandma's tips" videos (a talking character + a photo for every line + a countdown, pictures and talking clips in one slideshow) | [ep16-grandma-tips](ep16-grandma-tips) |
+| 17 | AI wildlife chase documentaries (real predator and prey, animal sheets with sizes, one narrator, clips cut to the voice) | [ep17-wildlife-chase](ep17-wildlife-chase) |
 
 ## How to use
 1. Open the episode folder and copy the prompt file into your AI chat (Claude, ChatGPT, Gemini...).
