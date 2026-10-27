@@ -43,3 +43,6 @@ other. Keep the clips' natural sound low under the voice and a soft music bed un
 |---|---|
 | The original's prey lives on another continent | Check the range first; use the predator's real prey (Siberian ibex) |
 | AI blows animals up or shrinks them when they share a shot | Size in centimetres on every sheet + "a little lower than the adult female ibex" |
+| Two clips showed a golden leopard with black spots (a common leopard) | Add to every clip with the snow leopard: "smoky grey and pale cream with black rosettes, never yellow, golden or orange (it is not a common leopard)"; redo those clips |
+| Halfway through a clip the mother's horns grew branches, or a second kid appeared | Don't regenerate: use the good part (the edit only needs about 3 seconds of each clip) |
+| A clip opened on the grey background of the sheet for a second | Start that clip after the grey frames |

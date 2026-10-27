@@ -63,6 +63,8 @@ subtitles, no on-screen text, no logos, no watermark."
   a look), [8s] a wide shot or a longer action, [10s] the slow last shot. Never all the same.
 - Every clip tags exactly ONE place and only the animals you see (max 3 tags in all).
 - Write size in words when animals are together ("the kid is half its mother's height").
+- An animal with a look-alike gets its colour and what it is NOT in every clip it is in: "The snow leopard is smoky
+  grey and pale cream with black rosettes, never yellow, golden or orange (it is not a common leopard)."
 
 ## When asked for part of the list
 "Sections A and B first" = A and B only. "C and D" = the components and clips 1-12. "continue" = the next 12 clips,
