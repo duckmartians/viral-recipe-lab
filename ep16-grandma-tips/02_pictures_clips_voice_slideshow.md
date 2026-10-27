@@ -34,13 +34,14 @@ Pilot two clips first: check that she says exactly the line and her lips match.
 The same voice as the Voice Component, every line of section B (HEAD lines too), one subtitle cue per line. The
 subtitle file is what places every picture and clip.
 
-## 4. The slideshow (Video Tools > Slideshow)
+## 4. The slideshow (Video Tools > Auto Video Slideshow)
 | Setting | Value | Why |
 |---|---|---|
 | Image row | select the files l01 to l38 in the folder (pictures AND clips; her sheet and the rooms stay out) and drop them | they sort by their line tag (l01, l02...), so a clip sits between the pictures of its neighbours, whatever the run numbers say |
 | Subtitle (SRT) | the narration's subtitle file, one cue per line | each picture starts with its line |
 | Audio | the narration | |
-| What a clip does | plays whole, with its own sound; the narration of that line is skipped and everything after moves along | she says the line herself |
+| Auto adjust > Fit to | Subtitles / current settings (default) | each picture starts on its subtitle line |
+| Auto adjust > Clip longer than its slot / Clip shorter than its slot | both: Play the whole clip, its sound replaces the narration | she says the line herself: the clip plays whole with its own voice, that line's narration is skipped and everything after moves along (the other choices fit a clip into its slot under the narration, for clips with no speech) |
 | Motion effects | Zoom in, Zoom out, Pan left, Pan right | the pictures drift slowly, like the original |
 | Aspect ratio / When ratio changes | 16:9 / Crop to fill | |
 | Export quality | Keep original | the app offers sizes up to the source; Nano Banana pictures are 1376 px wide, so scale to 1080p afterwards (or make 2K pictures) |
