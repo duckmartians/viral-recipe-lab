@@ -54,15 +54,15 @@ panel, drawn LARGE so it fills the whole panel height: front view seated, three-
 head-and-shoulders close-up. Thin white gaps between panels. photoreal portrait photography, soft daylight, 16:9.`
 `locname: <dots> Location plate: <the room, seen from where the camera stands>, nobody there. <LOOK>.`
 **D. PICTURES** (second run, one per PIC or CARD line, in order):
-PIC: `lNN: <dots> [@chrname if she is in it] [@locname if the room shows] <what the photo shows>. <LOOK>.`
+PIC: `lNN: <dots> <what the photo shows, with each @tag in its place in the sentence, e.g. "@chrname pours tea at the table in @lockitchen">. <LOOK>.` Never stack the tags at the start: the tag sits where that person or place is in the sentence.
 CARD: `lNN: <dots> Text card: plain warm cream paper background, centred: large dark-red serif text "No. 4", a
 thin gold line under it, and below it smaller dark-green capital letters "SOMETHING WARM FIRST". Nothing else in
 the picture. Only the words written above, spelled exactly. 16:9.`
 LOOK = "photoreal documentary photograph, warm soft lamplight, natural colours, 35mm, shallow depth of field, 16:9,
 no text, no letters, no logos, no watermark"
 **E. CLIPS** (one per HEAD line, in order):
-`lNN: <dots> [<6|8|10>s] @chrname @lockitchen Medium close-up at her eye level from across the kitchen table:
-<name> sits at her kitchen table, looks straight into the camera and says warmly, in a slow, kind voice:
+`lNN: <dots> [<6|8|10>s] Medium close-up at her eye level from across the kitchen table:
+@chrname sits at her kitchen table in @lockitchen, looks straight into the camera and says warmly, in a slow, kind voice:
 "<the exact line>" She talks with small natural hand movements and blinks; her lips match every word. No phone, camera, tripod or screen anywhere in the shot.
 She looks
 exactly like the character sheet and the kitchen looks exactly like the location reference (<one thing behind
