@@ -20,9 +20,11 @@ a prompt that contains the tag (with @) gets that picture as a reference.
    Every outfit is an edit of the base: "Character sheet of @basegrandpa: the same person as the reference: keep the
    face, hair, age, build and the 2x2 sheet layout exactly; change ONLY the clothes to ...". Give each person an
    outfit for each part of the day (work, rain, home) and tag the outfit the clip needs.
-3. The right tool for each shot. The video page's Components tab takes at most 3 reference pictures. A shot that
-   needs more (three people + the donkey + a place) is drawn first as a FIRST FRAME on the image page (up to 10
-   references), then animated in the Frames to Video tab from that frame.
+3. The right tool for each shot. The number of reference pictures depends on the MODEL, not the tab: in the video
+   page's Components tab, Omni and Veo take up to 3, Omni Flash up to 7 (5 with a reference video); the image page
+   (Nano Banana 2.1) takes up to 10. A crowded shot (three people + the donkey + a place) can use Omni Flash, or be
+   drawn first as a FIRST FRAME on the image page and animated in the Frames to Video tab from that frame.
+   Check the limit of the model you pick before you plan the shot.
 4. Tags: lowercase, a prefix + one word (base, chr, ani, loc, pl, fr), and no tag may be the start of another tag.
    Never use an ordinary word that is the start of a tag (the tool matches any word of 3+ letters that BEGINS a tag:
    "base clothes" pulls basegrandpa). Each @tag sits where that person, animal or place is in the sentence.
@@ -30,7 +32,7 @@ a prompt that contains the tag (with @) gets that picture as a reference.
 ## Output format (one prompt per line, inside code blocks)
 **A. SHOT LIST**: 28-32 shots in story order (dawn, animals, work, the main harvest, cooking, rain or a small event,
 the family meal, night, the next sunrise). For each: id (c01...), [6s] or [8s], who and where (tags), the action in
-one sentence, the sound. Mark a shot FRAME when it needs more than 3 references.
+one sentence, the sound. Mark a shot FRAME when it needs more references than your video model takes (Omni: 3).
 **B. RUN 1** (one run, no @tags): base sheets, animal sheets, the two master plates.
 `basename: <dots> Character sheet: <age, face, hair, build>, plain neutral underclothes: a simple grey long-sleeved
 top and dark trousers, bare head. character reference sheet on a plain light-grey background: ONE image split into a

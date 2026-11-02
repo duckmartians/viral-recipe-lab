@@ -21,7 +21,8 @@ Run 3 (4 rows): first frames for the crowded shots (up to 10 references on the i
 | Concurrent rows / Wait time | 5 / Immediately | |
 | Duration | Random, by the [6s] / [8s] tag in the prompt | short actions 6 s, normal shots 8 s |
 | Reference folder | the pictures folder | |
-Tab Components: shots with up to 3 references (one place + up to two people or animals). Test 3 hard clips first.
+Tab Components: we used Omni, which takes up to 3 references (one place + up to two people or animals); Omni Flash
+takes up to 7 (5 with a reference video). Test 3 hard clips first.
 Tab Frames to Video, pair mode Manual: the crowded shots, each starting on its frNN picture.
 
 ## 3. The edit (Video Tools > Auto Video Assembly)
@@ -35,14 +36,14 @@ Tab Frames to Video, pair mode Manual: the crowded shots, each starting on its f
 | Sound settings | Original audio 90 %, Added music 22 %, loop, fade in 2 s, fade out 4 s | the clips' own sound stays in front |
 | Export quality | Full HD 1080p | |
 Then check the loudness: our export was -28 LUFS (AI clips are quiet; the slider stops at 100 %). We raised the sound to
-about -20 LUFS without re-rendering the picture, the same level as the original.
+about -22 LUFS without re-rendering the picture (the original measures -20.5).
 
 ## 4. Problems we hit (and the fix)
 | Problem | Fix |
 |---|---|
 | The original's village changes halfway (round stone huts, then lake chalets) | One master village picture; every corner tags it |
 | "base clothes" in a prompt pulled the grandfather's sheet into the grandmother's | Never use an ordinary word that begins a tag; run a check on the prompts |
-| Shots with three people and a donkey need 5 references; Components takes 3 | Draw the first frame on the image page (10 references), animate it in Frames to Video |
+| Shots with three people and a donkey need 5 references; Omni takes 3 | Draw the first frame on the image page (10 references), animate it in Frames to Video |
 | 720p and 1080p both ticked | Tick 1080p first, then untick 720p |
 | Some clips open on the place picture's framing, then fly in | Trim the first 1-3 s |
 | 4 clips cut to a new shot inside one clip, though the prompt says "no cuts" | Trim before or after the cut |

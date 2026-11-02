@@ -13,8 +13,9 @@ seconds, with the clip's own sound and a soft piano. We make the same kind of fi
 ## The rest of the recipe
 3. Run 1: base sheets in plain clothes, the animals, one master picture of the village and one of the kitchen.
 4. Run 2: outfits as edits of the base (the face stays), corners that tag the master (the village stays).
-5. Run 3: first frames on the image page for shots that need more than 3 references (up to 10).
-6. Clips in 1080p (tick 1080p before unticking 720p): crowded shots in Frames to Video, the rest in Components.
+5. Run 3: first frames on the image page (up to 10 references) for shots that need more references than Omni takes
+   (3; Omni Flash takes 7).
+6. Clips in 1080p (tick 1080p before unticking 720p): crowded shots in Frames to Video, the rest in Components (Omni).
 7. Edit: trim each clip to about 5.5 s, cut fly-ins and cuts inside clips, a soft piano under the clips' own sound.
 
 ## What we measured in the original
