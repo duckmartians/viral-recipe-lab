@@ -1,0 +1,12 @@
+{
+  "name": "paper-noir-kit",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sheet": "node tools/render.mjs --sheet 3",
+    "render": "node tools/render.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0"
+  }
+}

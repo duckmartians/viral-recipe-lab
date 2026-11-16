@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Paper Noir kit - player</title>
+<style>
+  @font-face { font-family: "Kalam"; src: url("fonts/Kalam-Bold.woff2") format("woff2"); font-weight: 400 900; }
+  @font-face { font-family: "Caveat"; src: url("fonts/Caveat.woff2") format("woff2"); }
+  html, body { margin: 0; background: #111; color: #ddd; font: 14px Arial, sans-serif; }
+  #wrap { display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 12px; }
+  canvas { width: min(96vw, 1280px); aspect-ratio: 16 / 9; background: #000; }
+  #bar { width: min(96vw, 1280px); display: flex; gap: 10px; align-items: center; }
+  #seek { flex: 1; }
+  body.render #bar, body.render h1 { display: none; }
+  body.render #wrap { padding: 0; }
+  body.render canvas { width: 1920px; height: 1080px; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="c" width="1920" height="1080"></canvas>
+  <div id="bar"><button id="play">Play</button><input id="seek" type="range" min="0" max="1000" value="0"><span id="time">0.0 s</span></div>
+</div>
+<audio id="voice" src="../film/audio.m4a" preload="auto"></audio>
+<script type="module">
+import { W, H } from './engine.js';
+import * as film from '../film/film.js';
+
+const c = document.getElementById('c').getContext('2d');
+const words = await fetch('../film/words.json').then(r => r.ok ? r.json() : []).catch(() => []);
+const duration = film.duration ?? Math.max(...film.shots.map(s => s.end));
+
+/** helper given to every shot's draw(c, k) */
+function helper(shot, T) {
+  const t = T - shot.start, d = shot.end - shot.start;
+  return {
+    t, d, u: Math.min(1, Math.max(0, t / d)), T, shot,
+    /** shot-local time when a word (case-insensitive, first match inside this shot, or the n-th match) starts; null if absent */
+    at(word, n = 0) { const w = words.filter(x => x.s >= shot.start - 0.05 && x.s < shot.end && x.w.toLowerCase().replace(/[^a-z0-9$%]/g, '') === word.toLowerCase().replace(/[^a-z0-9$%]/g, ''))[n]; return w ? w.s - shot.start : null; },
+    words: words.filter(x => x.s >= shot.start - 0.05 && x.s < shot.end),
+  };
+}
+function draw(T) {
+  c.setTransform(1, 0, 0, 1, 0, 0); c.fillStyle = '#000'; c.fillRect(0, 0, W, H);
+  const shot = film.shots.find(s => T >= s.start && T < s.end) ?? film.shots[film.shots.length - 1];
+  c.save(); shot.draw(c, helper(shot, T)); c.restore();
+  if (film.finish) { c.save(); film.finish(c, T); c.restore(); }
+}
+
+await document.fonts.load('64px Kalam'); await document.fonts.load('40px Caveat');
+window.__duration = duration;
+window.__renderAt = (T) => { draw(T); return true; };
+window.__frame = (T, q = 0.92) => { draw(T); return c.canvas.toDataURL('image/jpeg', q); };
+window.__ready = true;
+
+if (new URLSearchParams(location.search).has('render')) document.body.classList.add('render');
+else {
+  const voice = document.getElementById('voice'), seek = document.getElementById('seek'), time = document.getElementById('time');
+  let playing = false, t0 = 0, start = 0;
+  const now = () => playing ? start + (performance.now() - t0) / 1000 : start;
+  const loop = () => { const T = Math.min(now(), duration); draw(T); seek.value = T / duration * 1000; time.textContent = T.toFixed(1) + ' s'; if (playing && T < duration) requestAnimationFrame(loop); else playing = false; };
+  document.getElementById('play').onclick = () => { if (playing) { start = now(); playing = false; voice.pause(); } else { playing = true; t0 = performance.now(); voice.currentTime = start; voice.play().catch(() => {}); loop(); } };
+  seek.oninput = () => { start = seek.value / 1000 * duration; playing = false; voice.pause(); loop(); };
+  loop();
+}
+</script>
+</body>
+</html>

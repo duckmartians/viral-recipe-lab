@@ -26,6 +26,7 @@ version step by step. Every episode gets its own folder with the exact prompts u
 | 17 | AI wildlife chase documentaries (real predator and prey, animal sheets with sizes, one narrator, clips cut to the voice) | [ep17-wildlife-chase](ep17-wildlife-chase) |
 | 18 | AI "what happens if you..." cartoon explainers (a question from home, sourced answers, a flat drawing per line, a cloned voice, a slideshow timed by subtitles) | [ep18-what-happens-if](ep18-what-happens-if) |
 | 19 | AI "peaceful countryside life" films (one master village and its corners, outfits that keep the face, first frames for crowded shots, 1080p clips, the edit in one app) | [ep19-countryside-life](ep19-countryside-life) |
+| 20 | AI "true business story" cartoons (a real money/tech story from graded sources, one fast narrator, a cartoon animated in code by your coding agent) | [ep20-business-cartoon-story](ep20-business-cartoon-story) |
 
 ## How to use
 1. Open the episode folder and copy the prompt file into your AI chat (Claude, ChatGPT, Gemini...).
